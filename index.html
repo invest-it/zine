@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meine Finanzen & ich</title>
+  <meta name="description" content="Ein digitales Reflexions-Zine von Invest it e.V. über den persönlichen Umgang mit Geld.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="reading-page">
+
+  <header class="site-header">
+    <a
+      class="brand-logo"
+      href="https://investit-academy.de/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Zur Website der Invest it! Academy"
+    >
+      <img src="images/logo.svg" alt="Invest it! Academy">
+    </a>
+
+    <nav class="site-nav" aria-label="Seitennavigation">
+      <a href="#lesen">Onlineversion</a>
+      <a href="drucken.html" class="nav-button">Zine drucken</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">REFLEXIONS-ZINE</p>
+        <h1>Meine Finanzen & ich</h1>
+        <p class="hero-lead">
+          Ein Zine zum Nachdenken, Journalen und Sprechen über den eigenen Umgang mit Geld.
+        </p>
+        <p class="hero-text">
+          Dieses Zine lädt dich dazu ein, Gedanken, Erfahrungen und Fragen rund um Geld
+          sichtbar zu machen – allein oder gemeinsam mit anderen.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#lesen">Onlineversion</a>
+          <a class="button button-secondary" href="drucken.html">Zine drucken</a>
+        </div>
+      </div>
+
+      <figure class="hero-cover">
+        <img
+          src="images/seite-1.png"
+          alt="Cover des Reflexions-Zines Meine Finanzen und ich"
+        >
+      </figure>
+    </section>
+
+    <section class="intro-band" aria-labelledby="worum-gehts">
+      <div>
+        <p class="section-kicker">Darum geht es</p>
+        <h2 id="worum-gehts">Reflektieren. Festhalten. Austauschen.</h2>
+      </div>
+
+      <div class="intro-grid">
+        <article>
+          <h3>Reflektieren</h3>
+          <p>Welche Gedanken, Gefühle und Erfahrungen verbindest du mit Geld?</p>
+        </article>
+
+        <article>
+          <h3>Festhalten</h3>
+          <p>Schreibe, male oder kritzle deine Ideen und Fragen auf.</p>
+        </article>
+
+        <article>
+          <h3>Austauschen</h3>
+          <p>Sprich mit anderen über Perspektiven, Gewohnheiten und Ziele.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="lesen" class="reading-shell" aria-labelledby="lesen-title">
+      <div class="reading-heading">
+        <p class="section-kicker">Onlineversion</p>
+        <h2 id="lesen-title">Meine Finanzen & ich</h2>
+        <p>Die Inhalte des Zines in einer gut lesbaren und ausfüllbaren Web-Fassung.</p>
+
+        <button class="button button-primary digital-print-button" type="button" onclick="window.print()">
+          Ausgefüllte Version drucken
+        </button>
+      </div>
+
+      <article class="reading-section">
+        <div class="section-number">01</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Erster Gedanke</p>
+          <h2>Wenn ich an Geld denke, denke ich an …</h2>
+          <p class="lead">
+            Welche Bilder, Gefühle, Erinnerungen oder Wörter kommen dir spontan in den Sinn?
+          </p>
+
+          <label class="prompt-card form-card">
+            <span class="form-card-title">Dein Gedankenraum</span>
+            <span>Schreibe alles auf, was dir einfällt. Es gibt kein Richtig oder Falsch.</span>
+            <textarea rows="7" placeholder="Deine Gedanken …"></textarea>
+          </label>
+        </div>
+      </article>
+
+      <article class="reading-section">
+        <div class="section-number">02</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Sprache prägt Denken</p>
+          <h2>Redewendungen über Geld</h2>
+          <p class="lead">
+            Welche dieser Aussagen kennst du? Welche findest du treffend – und welche eher doof?
+          </p>
+
+          <div class="quote-grid">
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Geld regiert die Welt.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Zeit ist Geld.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Wer den Pfennig nicht ehrt, ist den Taler nicht wert.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Geld stinkt nicht.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Geld ist ein guter Diener, aber ein schlechter Herr.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Der Armut fehlt vieles, dem Geiz alles.“</span>
+            </label>
+            <label class="select-card">
+              <input type="checkbox">
+              <span>„Geld allein macht nicht glücklich.“</span>
+            </label>
+          </div>
+
+          <label class="prompt-card compact form-card">
+            <span class="form-card-title">Deine Ergänzung</span>
+            <span>Welche Geld-Redewendung fehlt? Und welche möchtest du am liebsten streichen?</span>
+            <textarea rows="4" placeholder="Deine Antwort …"></textarea>
+          </label>
+        </div>
+      </article>
+
+      <article class="reading-section">
+        <div class="section-number">03</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Reflexionsfragen</p>
+          <h2>Du und deine Einstellungen zu Geld</h2>
+
+          <div class="question-list">
+            <label>
+              <span>Finanzielle Freiheit bedeutet für mich …</span>
+              <textarea rows="3" placeholder="Deine Gedanken"></textarea>
+            </label>
+
+            <label>
+              <span>Wenn meine Eltern über Geld geredet haben, dann …</span>
+              <textarea rows="3" placeholder="Deine Erinnerungen"></textarea>
+            </label>
+
+            <label>
+              <span>Meine Sorgen zum Thema Geld sind …</span>
+              <textarea rows="3" placeholder="Was beschäftigt dich?"></textarea>
+            </label>
+
+            <label>
+              <span>Mit 100.000 € würde ich …</span>
+              <textarea rows="3" placeholder="Was würdest du tun?"></textarea>
+            </label>
+
+            <label>
+              <span>Diese zwei Fragen zu meinen Finanzen habe ich:</span>
+              <textarea rows="4" placeholder="1) …&#10;2) …"></textarea>
+            </label>
+          </div>
+        </div>
+      </article>
+
+      <article class="reading-section">
+        <div class="section-number">04</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Finanz-Missionen</p>
+          <h2>Kannst du alle Challenges lösen?</h2>
+
+          <ol class="mission-list">
+            <li><label><input type="checkbox"><span>Finde eine Person, die dir sagen kann, in welcher Steuerklasse sie ist und warum.</span></label></li>
+            <li><label><input type="checkbox"><span>Finde heraus, wie deine Eltern ihr Geld planen.</span></label></li>
+            <li><label><input type="checkbox"><span>Schau dir an, wie ein:e Influencer:in über Geld spricht. Was fällt dir auf?</span></label></li>
+            <li><label><input type="checkbox"><span>Finde ein Werbeplakat, das mit Finanzen zu tun hat. Was ist die Botschaft?</span></label></li>
+            <li><label><input type="checkbox"><span>Recherchiere im Internet ein aktuelles Finanzthema, das dich interessiert, und lies mindestens einen Artikel dazu.</span></label></li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="reading-section">
+        <div class="section-number">05</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Deine Zukunft</p>
+          <h2>Visionboard: meine Finanz-Vision</h2>
+          <p class="lead">
+            Wie möchtest du mit Geld leben? Welche Ziele, Gefühle oder Möglichkeiten gehören für dich dazu?
+          </p>
+
+          <div
+            class="visionboard"
+            contenteditable="true"
+            role="textbox"
+            aria-multiline="true"
+            aria-label="Visionboard bearbeiten"
+            data-placeholder="Klicke hier und notiere Wörter, Ziele, Ideen oder Symbole für deine Finanz-Vision …"
+          ></div>
+        </div>
+      </article>
+
+      <article class="reading-section manifesto-section">
+        <div class="section-number">06</div>
+
+        <div class="section-body">
+          <p class="section-kicker">Mein Finanz-Manifest</p>
+          <h2>So will ich heute und in Zukunft mit Geld umgehen.</h2>
+
+          <div class="manifesto-card">
+            <label>
+              Ich möchte im Umgang mit Geld
+              <input type="text" aria-label="Ich möchte im Umgang mit Geld">
+            </label>
+
+            <label>
+              Mit dem Geld, das ich habe, möchte ich
+              <textarea rows="3" aria-label="Mit dem Geld, das ich habe, möchte ich"></textarea>
+            </label>
+
+            <label>
+              Ich bin bereit zu lernen, wie
+              <input type="text" aria-label="Ich bin bereit zu lernen, wie">
+            </label>
+
+            <fieldset class="affirmation-fieldset">
+              <legend>Was möchtest du für dich mitnehmen?</legend>
+
+              <label class="affirmation-check">
+                <input type="checkbox">
+                <span>Ich kann lernen, gut mit Geld umzugehen.</span>
+              </label>
+
+              <label class="affirmation-check">
+                <input type="checkbox">
+                <span>Ich übernehme Verantwortung für meine Finanzen – Schritt für Schritt.</span>
+              </label>
+
+              <label class="affirmation-check">
+                <input type="checkbox">
+                <span>Ich lasse mich nicht entmutigen, wenn ich etwas noch nicht verstehe.</span>
+              </label>
+
+              <label class="affirmation-check">
+                <input type="checkbox">
+                <span>Ich traue mir zu, meine finanziellen Ziele zu erreichen.</span>
+              </label>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+      <div class="end-print">
+        <p class="section-kicker">Fertig?</p>
+        <h2>Deine Gedanken aufs Papier bringen.</h2>
+        <button class="button button-primary digital-print-button" type="button" onclick="window.print()">
+          Ausgefülltes Zine drucken
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ein Reflexions-Zine von Invest it e.V.</p>
+    <a href="drucken.html">Druckversion öffnen</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
